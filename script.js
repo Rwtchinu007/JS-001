@@ -18,11 +18,18 @@ b = 25; // re-assignment kr skte ho
 // console.log(c); // error ayega
 let c = 30;
 console.log(c);
+console.info("meow meow"); 
+// kuch kuch browser m console.info ko thode alag tarike se show krte h unke aage i sign a jata h
+console.error(a); // laal laal
+console.warn(b); // peela ayega
+console.table({name: "abc", age: 22}); // table format m show krta h
 
+// prompt and alert 
+let name1 = prompt("Enter your name: "); // user se input  lene k liye
+console.log("name:", name1);
+alert("Hello " + name1); // user ko message dikhane k liye
 // hoisting impact per type
 // hoisting -> jb ek variable ko js m bnate h to wo do part m divide ho jata h
 // 1. declaration var a = undefined;
 // 2. initialization a = 12;
 
-console.error(a); // undefined
-console.warn(b); // error ayega
