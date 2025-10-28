@@ -32,4 +32,9 @@ alert("Hello " + name1); // user ko message dikhane k liye
 // hoisting -> jb ek variable ko js m bnate h to wo do part m divide ho jata h
 // 1. declaration var a = undefined;
 // 2. initialization a = 12;
+// prom[t se jo bhi value milegi wo hamesha string m hi milegi chahe user number dale
+// agar number m chahiye to usse hume convert krna padega
+let age = prompt("Enter your age: ");
+age = Number(age); // string to number conversion
+console.log("age:", age);
 
